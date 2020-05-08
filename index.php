@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- meta -->
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Kelly - Personal Portfolio</title>
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,700,700i,900,900i" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="lib/magnific-popup/magnific-popup.css" rel="stylesheet">
+  <link href="lib/hover/hover.min.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- Responsive css -->
+  <link href="css/responsive.css" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="images/favicon.png">
+<style>
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../images/portfolio/.jpg);
+  }
+  
+  .container1:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  </style>
+</head>
+
+<body>
+
+  <!-- start section navbar -->
+  <nav id="main-nav">
+    <div class="row">
+      <div class="container">
+
+        <div class="logo">
+          <a href="index.html"><img src="images/log.png" alt="logo"></a>
+        </div>
+
+        <div class="responsive"><i data-icon="m" class="ion-navicon-round"></i></div>
+
+        <ul class="nav-menu list-unstyled">
+          <li><a href="#header" class="smoothScroll">Home</a></li>
+          <li><a href="#about" class="smoothScroll">About</a></li>
+          <li><a href="#work" class="smoothScroll">My Work</a></li>
+          <li><a href="#contact" class="smoothScroll">Contact</a></li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <!-- End section navbar -->
+
+
+  <!-- start section header -->
+  <div id="header" class="home">
+
+    <div class="container">
+      <div class="header-content">
+        <h1>I'm <span class="typed"></span></h1>
+        <p>Software developer</p>
+
+        <ul class="list-unstyled list-social">
+          <li><a href="https://www.facebook.com/gahunga.kellyigue"><i class="ion-social-facebook"></i></a></li>
+          <li><a href="https://twitter.com/Kelly_Gahunga25"><i class="ion-social-twitter"></i></a></li>
+          <li><a href="https://www.instagram.com/kellygahunga/"><i class="ion-social-instagram"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/gahunga-kelly-995102195"><i class="ion-social-linkedin"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!-- End section header -->
+
+
+  <!-- start section about us -->
+  <div id="about" class="paddsection">
+    <div class="container">
+      <div class="row justify-content-between">
+
+        <div class="col-lg-4 ">
+          <div class="div-img-bg">
+            <div class="about-img">
+              <img src="images/me.jpg" class="img-responsive" alt="me">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-7">
+          <div class="about-descr">
+
+            <p>My name is Kelly Gahunga, Am currently a student at the Adventist University of central Africa in Software Engineering department.</p>
+
+              <p>So far where i am i can turn your feelings and ideas into reality, representing your brand in clever and memorable ways. I take pride in professional software, creative concepts and relationships with my clients.</p>
+              
+              <p>I have developed many Front-End web based software's like hotel consultancy agency, online appointements and i have worked on some Front-End and Back-End softwares like this portofolio, voting online system, Health People Group and online depression forum . Branding was the next logical step.</p>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- end section about us -->
+
+
+  <!-- start section services -->
+  <div id="services">
+    <div class="container">
+
+        <div class="services-carousel owl-theme">
+
+          <div class="services-block">
+
+            <i class="ion-ios-browsers-outline"></i>
+            <span>Web Development</span>
+            <p class="separator">I design beautiful, results-driven websites that generate sales and convert your visitors into customers.</p>
+
+          </div>
+
+          <div class="services-block">
+
+            <i class="ion-ios-lightbulb-outline"></i>
+            <span>Responsive Design</span>
+            <p class="separator">the approach that suggests that design and development should respond to the user's behavior and environment. </p>
+
+          </div>
+
+          <div class="services-block">
+
+            <i class="ion-ios-color-wand-outline"></i>
+            <span>Creative DESIGN</span>
+            <p class="separator">convert the process of creating beautiful and compelling visuals that your customers will love into actual business results, and indeed a brand.</p>
+
+          </div>
+
+          <div class="services-block">
+
+            <i class="ion-social-android-outline"></i>
+            <span>Support</span>
+            <p class="separator">Products and technology are only valuable when coupled with skilled people and services to support them.</p>
+
+          </div>
+
+        </div>
+
+    </div>
+
+  </div>
+  <!-- end section services -->
+
+
+  <!-- start section portfolio -->
+  <div id="work" class="text-center paddsection">
+
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>My Work</h2>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+
+          <div class="portfolio-list">
+
+          <div class="portfolio-container">
+
+<div class="container1">
+            <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding uikits webdesign">
+              <a class="popup-img" href="images/portfolio/port.jpg">
+                <img src="images/portfolio/port.jpg" alt="img">
+                <div class="overlay">
+                  <div class="text">Personal Portoflio</div>
+                </div>
+              </a>
+            </div>
+            </div>
+
+            <div class="container1">
+              <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding uikits webdesign">
+                <a class="popup-img" href="images/portfolio/hpg.jpg">
+                  <img src="images/portfolio/hpg.jpg" alt="img">
+                  <div class="overlay">
+                    <div class="text">Link:</div>
+                  </div>
+                </a>
+              </div>
+              </div>
+
+              <div class="container1">
+                <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding uikits webdesign">
+                  <a class="popup-img" href="images/portfolio/vote.jpg">
+                    <img src="images/portfolio/vote.jpg" alt="img">
+                    <div class="overlay">
+                      <div class="text">Vote system</div>
+                    </div>
+                  </a>
+                </div>
+                </div>
+                
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- End section portfolio -->
+
+
+  <!-- start section journal -->
+  <!-- <div id="journal" class="text-left paddsection">
+
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>journal</h2>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="journal-block">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="journal-info">
+
+              <a href="blog-single.html"><img src="images/blog-post-1.jpg" class="img-responsive" alt="img"></a>
+
+              <div class="journal-txt">
+
+                <h4><a href="blog-single.html">SO LETS MAKE THE MOST IS BEAUTIFUL</a></h4>
+                <p class="separator">To an English person, it will seem like simplified English
+                </p>
+
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="journal-info">
+
+              <a href="blog-single.html"><img src="images/blog-post-2.jpg" class="img-responsive" alt="img"></a>
+
+              <div class="journal-txt">
+
+                <h4><a href="#blog-single.html">WE'RE GONA MAKE DREAMS COMES</a></h4>
+                <p class="separator">To an English person, it will seem like simplified English
+                </p>
+
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="journal-info">
+
+              <a href="blog-single.html"><img src="images/blog-post-3.jpg" class="img-responsive" alt="img"></a>
+
+              <div class="journal-txt">
+
+                <h4><a href="blog-single.html">NEW LIFE CIVILIZATIONS TO BOLDLY</a></h4>
+                <p class="separator">To an English person, it will seem like simplified English
+                </p>
+
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div> -->
+  <!-- End section journal -->
+
+
+  <!-- start sectoion contact -->
+  <div id="contact" class="paddsection">
+    <div class="container">
+      <div class="contact-block1">
+        <div class="row">
+
+          <div class="col-lg-6">
+            <div class="contact-contact">
+
+              <h2 class="mb-30">GET IN TOUCH</h2>
+
+              <ul class="contact-details">
+                <li><span>Kinyinya</span></li>
+                <li><span>Kigali, Rwanda</span></li>
+                <li><span>+250 788 274 107</span></li>
+                <li><span>kellyiguee@gmail.com</span></li>
+              </ul>
+
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSe5-cQ5_qL1hH-RNnJXNfa4opIOO2DbsM2AkMXxybhJMQGMeA/formResponse" method="POST" role="form" class="contactForm">
+              <div class="row">
+
+                <div id="sendmessage">Your message has been sent. Thank you!</div>
+                <div id="errormessage"></div>
+
+                <div class="col-lg-6">
+                  <div class="form-group contact-block1">
+                    <input type="text" name="entry.309681659" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+
+                <div class="col-lg-6">
+                  <div class="form-group">
+                    <input type="email" class="form-control" name="entry.1662057485" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+
+                <div class="col-lg-12">
+                  <div class="form-group">
+                    <input type="text" class="form-control" name="entry.1357052126" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                    <div class="validation"></div>
+                  </div>
+                </div>
+
+                <div class="col-lg-12">
+                  <div class="form-group">
+                    <textarea class="form-control" name="entry.2115998276" rows="4" cols="50" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                    <div class="validation"></div>
+                  </div>
+                </div>
+
+                <div class="col-lg-12">
+                  <input type="submit" class="btn btn-defeault btn-send" value="Send message">
+                </div>
+
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- start sectoion contact -->
+
+
+  <!-- start section footer -->
+  <div id="footer" class="text-center">
+    <div class="container">
+      <div class="socials-media text-center">
+
+        <ul class="list-unstyled">
+          <li><a href="https://www.facebook.com/gahunga.kellyigue"><i class="ion-social-facebook"></i></a></li>
+          <li><a href="https://twitter.com/Kelly_Gahunga25"><i class="ion-social-twitter"></i></a></li>
+          <li><a href="https://www.instagram.com/kellygahunga/"><i class="ion-social-instagram"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/gahunga-kelly-995102195"><i class="ion-social-linkedin"></i></a></li>
+        </ul>
+
+      </div>
+
+      <p>&copy; Copyrights Kelly Gahunga. All rights reserved.</p>
+    </div>
+  </div>
+  <!-- End section footer -->
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/jquery/jquery-migrate.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/typed/typed.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/magnific-popup/magnific-popup.min.js"></script>
+  <script src="lib/isotope/isotope.pkgd.min.js"></script>
+
+  <!-- Contact Form JavaScript File -->
+  <script src="contactform/contactform.js"></script>
+
+  <!--  Main Javascript File -->
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
